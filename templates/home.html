@@ -4,18 +4,59 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <style>
+      h1 {
+        font-size: 40px;
+        font-family: Roboto;
+        font-weight: normal;
+        color: rgb(50, 50, 50);
+        text-align: center;
+      }
+
+      #banner {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+      
+      h2 {
+        font-family: Roboto;
+        font-size: 32px;
+        color: rgb(100, 100, 100);
+        text-align: center;
+        font-weight: normal;
+      }
+      .bodytext {
+        font-family: Roboto; 
+        color: rgb(80, 80, 80);
+      }
+
+      #conteiner {
+        max-width: 720px;
+        margin: 0 auto 0 auto;
+      }
+    </style>
   </head>
   <body>
+    <div id="conteiner">
     <h1>Careers</h1>
-    <img src="https://33211a49-027c-43e2-a3ff-51a4bedddca8-00-1ak8kv5aevqos.janeway.replit.dev/static/banner.jpg" heifht="320"> 
+    <img id="banner" src="https://33211a49-027c-43e2-a3ff-51a4bedddca8-00-1ak8kv5aevqos.janeway.replit.dev/static/banner.jpg"> 
     <h2>About</h2>
-    <p>
+      
+    <p class="bodytext">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+      
     <h2>
       Open positions
     </h2>
-    <p>TODO - Show the jobs here</p>
-    <button>Contact Us</button>
+      
+    <p class="bodytext">TODO - Show the jobs here</p>
+      
+    <div style="text-align: center;">
+      <button>Contact Us</button>
+      <p>Copyright 2024</p>
+    </div>
+    </div>
   </body>
 </html>
